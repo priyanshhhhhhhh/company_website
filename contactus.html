@@ -1,0 +1,116 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 3px solid #D4D8FF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 18px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:18px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B4B4B4 ;
+  position: fixed;
+  top: ;
+  bottom: 0;
+  width: 100%;
+   
+  
+}
+
+li {
+  float:;
+}
+  
+
+li a {
+  display: inline;
+  margin-right: 55px;
+  color: black;
+  text-decoration: none;
+   padding:8px;
+   word-spacing:;
+}
+
+li a:hover:not(.active) {
+  background-color: #C8C8C8 ; 
+  
+}
+
+.active {
+  background-color: #F1FFFE  ;
+}
+.container {
+  border-radius: 10px;
+  background-image: url(it.jpg);
+  padding: 20px;
+}
+ 
+</style>
+</head>
+<body>
+
+<h1>Contact Form</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname"style="font-size: 22px;font-style:bold;">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"style="font-size: 22px;font-style:bold;">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<label for="lname"style="font-size: 22px;font-style:bold;">Phone Number</label>
+<input type="Number" id="lname" name="Number" placeholder="Your Phone Number..">
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="country"style="font-size: 22px;font-style:bold;">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject"style="font-size: 22px;font-style:bold;">Product Information You Need</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<ul>
+  <li><a class="active" href="website.html" style="font-size: 40px;background-color: #DBECEA">Zemex Petrochemicals</a></li>
+  <li style="float: right;"><a href="feedback.html" style="font-size:29px;color: black;">Feedback</a></li>
+  <li style="float: right;"><a href="about.html" style="font-size: 29px ;color: black;"> AboutUs</a></li>
+    <li style="float: right;"><a href="project.html" style="font-size: 29px ;color: black;"> Projects</a></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FeedBack</title>
+	<style type="text/css">
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#B4B4B4 ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+   
+  
+}
+
+li {
+  float:;
+}
+  
+
+li a {
+  display: inline;
+  margin-right: 55px;
+  color: black;
+  text-decoration: none;
+   padding:8px;
+   word-spacing:;
+}
+
+li a:hover:not(.active) {
+  background-color: #C8C8C8 ; 
+  
+}
+
+.active {
+  background-color: #F1FFFE  ;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 3px solid #D4D8FF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 15px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:18px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 10px;
+  background-image: url(uu.jpg);
+  padding: 20px;
+}
+	</style>
+</head>
+<body>
+  <ul>
+  <li><a class="active" href="website.html" style="font-size: 40px;background-color: #DBECEA">Zemex Petrochemicals</a></li>
+  <li style="float: right;"><a href="feedback.html" style="font-size:29px;color: black;">Feedback</a></li>
+  <li style="float: right;"><a href="about.html" style="font-size: 29px ;color: black;"> AboutUs</a></li>
+    <li style="float: right;"><a href="project.html" style="font-size: 29px ;color: black;"> Projects</a></li>
+</ul><br>
+<br>
+<br>
+<br>
+<h1 style="text-align: center;border-bottom: 1px solid#DFDFDF;padding-bottom:32px;">FeedBack Form</h1>
+<h3>Thank You for Visiting!!</h3>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname" style="font-size: 22px;font-style:bold;">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your fullname..">
+
+    <label for="lname"style="font-size: 22px;font-style:bold;">Occupation</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Occupation here..">
+<label for="lname"style="font-size: 22px;font-style:bold;">Phone Number</label>
+<input type="Number" id="lname" name="Number" placeholder="Your Phone Number..">
+    <label for="country"style="font-size: 22px;font-style:bold;">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    
+    <label for="subject"style="font-size: 22px;font-style:bold;">Things we need to improve</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

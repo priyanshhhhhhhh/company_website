@@ -1,0 +1,55 @@
+.centered{ text-align:center;
+  color:white;  
+  position:relative;
+  
+  background-color:black;
+  font-size:55px;
+  padding:8px;
+  position:absolute;
+  font-weight:900; 
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+
+  footer{position:absolute;
+  top:2300px;
+  background-color:#E1E1E1;
+  text-align:center; 
+  width:100%;
+
+}
+footer:hover{
+  background-color:#C8C8C8;
+}
+.menu-one
+{
+   width: 100%;
+   
+}
+.logo
+{ 
+  width: 50%;
+  float: left;
+  
+}
+.menu
+{
+  width: 50%;
+  float: right;
+  
+}
+.menu ul li
+{
+  display: inline;
+  margin:0 15px;
+} 
+.menu ul li a
+{
+  color: black;
+}
+.heading
+{
+   clear: both;
+}
